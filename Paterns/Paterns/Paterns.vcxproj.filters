@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\SOLID">
+      <UniqueIdentifier>{3d3ffd3c-935b-46b9-9275-a4f0b39ddea7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Factory method.cpp">
@@ -80,6 +83,21 @@
     </ClCompile>
     <ClCompile Include="Visitor.cpp">
       <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Single responsibility principle.cpp">
+      <Filter>Исходные файлы\SOLID</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenClosed principle.cpp">
+      <Filter>Исходные файлы\SOLID</Filter>
+    </ClCompile>
+    <ClCompile Include="Liskov substitution principle.cpp">
+      <Filter>Исходные файлы\SOLID</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface segregation principle.cpp">
+      <Filter>Исходные файлы\SOLID</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency inversion principle.cpp">
+      <Filter>Исходные файлы\SOLID</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
